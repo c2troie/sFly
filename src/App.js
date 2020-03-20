@@ -21,7 +21,7 @@ const PageLogin = React.lazy(() => import('./pages/PageLogin'));
 const PageMaintenance = React.lazy(() => import('./pages/PageMaintenance'));
 const PageRecoveryPassword = React.lazy(() => import('./pages/PageRecoveryPassword'));
 const PageSignup = React.lazy(() => import('./pages/PageSignup'));
-
+//COUCOU
 function withLayout(WrappedComponent) {
   // ...and returns another component...
   return class extends React.Component {  
