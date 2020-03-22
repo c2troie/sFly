@@ -1,0 +1,22 @@
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 550px)
+{
+    .adjustText
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+}
+@media screen and (min-width: 765px) and (max-width:1000px) {
+    .adjustText
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+  }

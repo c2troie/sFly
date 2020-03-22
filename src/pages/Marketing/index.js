@@ -16,6 +16,8 @@ import Partners from "../../components/Shared/Partner";
 import Speakers from "../Event/Speakers";
 import HowItWorks from '../../components/Shared/HowItWorks';
 
+//Style Media Queries
+import './style.css'
 const Index = () => {
   const [open, isOpen] = useState(false);
 
@@ -69,9 +71,10 @@ const Index = () => {
                     style={{ maxHeight: "400px" }}
                     alt=""
                   />
-                  <div className="title-heading mt-0 mt-md-5 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                    <h2 className="font-weight-bold mb-3 d-flex">
-                      Improve Your Flight For &nbsp;
+                  <div className="title-heading mt-0 mt-md-5 mt-4 mt-sm-0 pt-2 pt-sm-0 " >
+                    <h2 className="font-weight-bold mb-3 d-flex adjustText" >
+                        <span> Improve Your Flight For &nbsp;</span>
+                      
                       <Typist>
                         <span
                           className="element text-custom"
