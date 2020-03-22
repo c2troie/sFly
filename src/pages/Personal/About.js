@@ -76,7 +76,7 @@ class About extends Component {
                             <Col>
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="title mb-4">My Work & Portfolio</h4>
-                                    <p className="text-muted para-desc mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -196,7 +196,7 @@ class About extends Component {
                             <Col>
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="title mb-4">Work Process</h4>
-                                    <p className="text-muted para-desc mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>

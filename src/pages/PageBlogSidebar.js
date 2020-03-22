@@ -125,7 +125,7 @@ class PageBlogSidebar extends Component {
                             <Col lg={6} className="mb-4 pb-2">
                                 <div className="blog position-relative overflow-hidden shadow rounded">
                                     <div className="position-relative">
-                                        <img src={blog03} className="img-fluid rounded-top" alt="Landrick" />
+                                        <img src={blog03} className="img-fluid rounded-top" alt="SFLY" />
                                         <div className="overlay rounded-top bg-dark"></div>
                                     </div>
                                     <div className="content p-4">
@@ -148,7 +148,7 @@ class PageBlogSidebar extends Component {
                             <Col lg={6} className="mb-4 pb-2">
                                 <div className="blog position-relative overflow-hidden shadow rounded">
                                     <div className="position-relative">
-                                        <img src={blog04} className="img-fluid rounded-top" alt="Landrick" />
+                                        <img src={blog04} className="img-fluid rounded-top" alt="SFLY" />
                                         <div className="overlay rounded-top bg-dark"></div>
                                     </div>
                                     <div className="content p-4">
@@ -170,7 +170,7 @@ class PageBlogSidebar extends Component {
                             <Col lg={6} className="mb-4 pb-2">
                                 <div className="blog position-relative overflow-hidden shadow rounded">
                                     <div className="position-relative">
-                                        <img src={blog05} className="img-fluid rounded-top" alt="Landrick" />
+                                        <img src={blog05} className="img-fluid rounded-top" alt="SFLY" />
                                         <div className="overlay rounded-top bg-dark"></div>
                                     </div>
                                     <div className="content p-4">
@@ -192,7 +192,7 @@ class PageBlogSidebar extends Component {
                             <Col lg={6} className="mb-4 pb-2">
                                 <div className="blog position-relative overflow-hidden shadow rounded">
                                     <div className="position-relative">
-                                        <img src={blog06} className="img-fluid rounded-top" alt="Landrick" />
+                                        <img src={blog06} className="img-fluid rounded-top" alt="SFLY" />
                                         <div className="overlay rounded-top bg-dark"></div>
                                     </div>
                                     <div className="content p-4">

@@ -70,7 +70,7 @@ class PageMaintenance extends Component {
                             <div className="container">
                                 <Row className="justify-content-center">
                                     <Col lg={8} md={12} className="text-center">
-                                        <Link to="#" className="text-white logo h5">Landrick<span className="text-primary">.</span></Link>
+                                        <Link to="#" className="text-white logo h5">SFLY<span className="text-primary">.</span></Link>
                                         <div className="text-uppercase text-white mt-2 mb-4 maintenance">System Is Under Maintenance</div>
                                         <p className="text-light">Perfect and awesome template to present your future product or service. Hooking audience attention is all in the opener.</p>
                                     </Col>

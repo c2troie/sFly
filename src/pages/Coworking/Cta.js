@@ -46,7 +46,7 @@ class Cta extends Component {
                                         <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})} />
                                                            
                                         <h4 className="main-title mb-4 mt-4">We Are Creative Dreamers and Co-workers</h4>
-                                        <p className="text-muted mx-auto para-desc mb-0">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                        <p className="text-muted mx-auto para-desc mb-0">Start working with SFLY that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     </div>
                                 </Col>
                             </Row>
@@ -58,7 +58,7 @@ class Cta extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="main-title mb-4">Choose The Pricing Plan</h4>
-                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -74,7 +74,7 @@ class Cta extends Component {
                                         <span className="h4 align-self-end mb-1">/mo</span>
                                     </div>
 
-                                    <p className="text-muted">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted">Start working with SFLY that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <Link to="#" className="btn btn-outline-primary btn-sm mt-4">Buy Now</Link>
                                 </div>
                             </Col>
@@ -92,7 +92,7 @@ class Cta extends Component {
                                         <span className="h4 align-self-end mb-1">/mo</span>
                                     </div>
 
-                                    <p className="text-muted">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted">Start working with SFLY that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <Link to="#" className="btn btn-outline-primary btn-sm mt-4">Get Started</Link>
                                 </div>
                             </Col>
@@ -107,7 +107,7 @@ class Cta extends Component {
                                         <span className="h4 align-self-end mb-1">/mo</span>
                                     </div>
 
-                                    <p className="text-muted">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted">Start working with SFLY that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <Link to="#" className="btn btn-outline-primary btn-sm mt-4">Get Started</Link>
                                 </div>
                             </Col>
@@ -122,7 +122,7 @@ class Cta extends Component {
                                         <span className="h4 align-self-end mb-1">/mo</span>
                                     </div>
 
-                                    <p className="text-muted">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted">Start working with SFLY that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <Link to="#" className="btn btn-outline-primary btn-sm mt-4">Try It Now</Link>
                                 </div>
                             </Col>

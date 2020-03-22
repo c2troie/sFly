@@ -20,7 +20,7 @@ class Pricing extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-60">
                                     <h4 className="main-title mb-4">Choose Simple Pricing</h4>
-                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -91,8 +91,8 @@ class Pricing extends Component {
                         <Row className="align-items-center">
                             <Col lg={6}>
                                 <div className="section-title">
-                                    <h4 className="title mb-4">See everything about your <span className="text-primary">Landrick</span> Business</h4>
-                                    <p className="text-muted para-desc">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <h4 className="title mb-4">See everything about your <span className="text-primary">SFLY</span> Business</h4>
+                                    <p className="text-muted para-desc">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <ul className="list-unstyled feature-list text-muted">
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>

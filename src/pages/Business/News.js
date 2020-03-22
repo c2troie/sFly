@@ -25,7 +25,7 @@ class News extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="title mb-4">Latest News</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -107,7 +107,7 @@ class News extends Component {
                             <Col className="text-center">
                                 <div className="section-title">
                                     <h4 className="title mb-4">See everything about your employee at one place.</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                                     <div className="mt-3">
                                         <Link to="#" className="btn btn-primary mt-2 mr-2">Get Started Now</Link>

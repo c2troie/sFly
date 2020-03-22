@@ -29,7 +29,7 @@ class Services extends Component {
                             <Col lg={9} md={8} className="text-sm-left">
                                 <div className="section-title">
                                     <h4 className="main-title mb-4">Cloud Hosting Services</h4>
-                                    <p className="text-muted para-desc mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
 

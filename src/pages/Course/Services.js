@@ -35,7 +35,7 @@ class Services extends Component {
                             <div className="col-12 text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="title mb-4">Explore Popular Courses</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc position-relative overflow-hidden rounded border">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course1} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course1} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                         <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -79,7 +79,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc rounded border position-relative overflow-hidden">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course2} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course2} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                         <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -114,7 +114,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc rounded border position-relative overflow-hidden">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course3} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course3} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                         <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -149,7 +149,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc rounded border position-relative overflow-hidden">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course4} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course4} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                         <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -184,7 +184,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc rounded border position-relative overflow-hidden">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course5} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course5} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                         <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -219,7 +219,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc rounded border position-relative overflow-hidden">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course6} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course6} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                         <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -254,7 +254,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc rounded border position-relative overflow-hidden">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course7} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course7} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                         <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -289,7 +289,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc rounded border position-relative overflow-hidden">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course7} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course7} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                        <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -324,7 +324,7 @@ class Services extends Component {
                             <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                                 <div className="courses-desc rounded border position-relative overflow-hidden">
                                     <div className="position-relative d-block overflow-hidden">
-                                        <img src={course9} className="img-fluid rounded-top mx-auto" alt="Landrick" />
+                                        <img src={course9} className="img-fluid rounded-top mx-auto" alt="SFLY" />
                                         <div className="overlay-work"></div>
                                         <Link to="#" className="text-white h6 preview">Preview Now <i className="mdi mdi-chevron-right"></i></Link>
                                     </div>
@@ -367,7 +367,7 @@ class Services extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="title mb-4">Instructors</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -376,7 +376,7 @@ class Services extends Component {
                             <Col lg={3} md={6} className="mt-4 pt-2">
                                 <div className="team text-center">
                                     <div className="position-relative">
-                                        <img src={team01} className="img-fluid d-block rounded-pill mx-auto" alt="Landrick" />
+                                        <img src={team01} className="img-fluid d-block rounded-pill mx-auto" alt="SFLY" />
                                         <ul className="list-unstyled social-icon team-icon mb-0 mt-4">
                                             <li className="list-inline-item"><Link to="#" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                                             <li className="list-inline-item"><Link to="#" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
@@ -394,7 +394,7 @@ class Services extends Component {
                             <Col lg={3} md={6} className="mt-4 pt-2">
                                 <div className="team text-center">
                                     <div className="position-relative">
-                                        <img src={team02} className="img-fluid d-block rounded-pill mx-auto" alt="Landrick" />
+                                        <img src={team02} className="img-fluid d-block rounded-pill mx-auto" alt="SFLY" />
                                         <ul className="list-unstyled social-icon team-icon mb-0 mt-4">
                                             <li className="list-inline-item"><Link to="#" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                                             <li className="list-inline-item"><Link to="#" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
@@ -412,7 +412,7 @@ class Services extends Component {
                             <Col lg={3} md={6} className="mt-4 pt-2">
                                 <div className="team text-center">
                                     <div className="position-relative">
-                                        <img src={team03} className="img-fluid d-block rounded-pill mx-auto" alt="Landrick" />
+                                        <img src={team03} className="img-fluid d-block rounded-pill mx-auto" alt="SFLY" />
                                         <ul className="list-unstyled social-icon team-icon mb-0 mt-4">
                                             <li className="list-inline-item"><Link to="#" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                                             <li className="list-inline-item"><Link to="#" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
@@ -430,7 +430,7 @@ class Services extends Component {
                             <Col lg={3} md={6} className="mt-4 pt-2">
                                 <div className="team text-center">
                                     <div className="position-relative">
-                                        <img src={team04} className="img-fluid d-block rounded-pill mx-auto" alt="Landrick" />
+                                        <img src={team04} className="img-fluid d-block rounded-pill mx-auto" alt="SFLY" />
                                         <ul className="list-unstyled social-icon team-icon mb-0 mt-4">
                                             <li className="list-inline-item"><Link to="#" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                                             <li className="list-inline-item"><Link to="#" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>

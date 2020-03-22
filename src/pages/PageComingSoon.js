@@ -68,9 +68,9 @@ class PageComingSoon extends Component {
                             <div className="container">
                                 <Row className="justify-content-center">
                                     <Col lg={8} md={12} className="text-center">
-                                        <Link to="#" className="text-white logo h5">Landrick<span className="text-primary">.</span></Link>
+                                        <Link to="#" className="text-white logo h5">SFLY<span className="text-primary">.</span></Link>
                                         <div className="text-uppercase text-white mt-2 mb-4 coming-soon">We're Coming soon...</div>
-                                        <p className="text-light para-desc mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                        <p className="text-light para-desc mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     </Col>
                                 </Row>
 

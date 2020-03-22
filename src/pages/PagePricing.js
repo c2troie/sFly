@@ -200,7 +200,7 @@ class PagePricing extends Component {
                             <div className="col-12 text-center">
                                 <div className="section-title mb-60">
                                     <h4 className="main-title mb-4">Choose Simple Pricing</h4>
-                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </div>
                         </Row>
@@ -270,7 +270,7 @@ class PagePricing extends Component {
                             <div className="col-12 text-center">
                                 <div className="section-title mb-60">
                                     <h4 className="main-title mb-4">Client Reviews</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </div>
                         </Row>
@@ -301,7 +301,7 @@ class PagePricing extends Component {
                         <Row>
                             <Col md={6} className="col-12">
                                 <div className="faq-container">
-                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span className="text-primary">Landrick</span> work ?</h4>
+                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span className="text-primary">SFLY</span> work ?</h4>
                                     <p className="answer text-muted ml-lg-4 pl-lg-3 mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                                 </div>
                             </Col>
@@ -322,7 +322,7 @@ class PagePricing extends Component {
 
                             <Col md={6} className="col-12 mt-4 pt-2">
                                 <div className="faq-container">
-                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> Is <span className="text-primary">Landrick</span> safer to use with my account ?</h4>
+                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> Is <span className="text-primary">SFLY</span> safer to use with my account ?</h4>
                                     <p className="answer text-muted ml-lg-4 pl-lg-3 mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin.</p>
                                 </div>
                             </Col>
@@ -332,7 +332,7 @@ class PagePricing extends Component {
                             <div className="col-12 text-center">
                                 <div className="section-title">
                                     <h4 className="main-title mb-4">Have Question ? Get in touch!</h4>
-                                    <p className="text-muted para-desc mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <Link to="page-contact-two" className="btn btn-primary mt-4">Contact us <i className="mdi mdi-arrow-right"></i></Link>
                                 </div>
                             </div>

@@ -25,7 +25,7 @@ class News extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="title mb-4">Latest News</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -34,7 +34,7 @@ class News extends Component {
                             <Col lg={4} md={6} className="mt-4 pt-2">
                                 <div className="blog position-relative overflow-hidden shadow rounded">
                                     <div className="position-relative">
-                                        <img src={bg01} className="img-fluid rounded-top" alt="Landrick" />
+                                        <img src={bg01} className="img-fluid rounded-top" alt="SFLY" />
                                         <div className="overlay rounded-top bg-dark"></div>
                                     </div>
                                     <div className="content p-4">
@@ -57,7 +57,7 @@ class News extends Component {
                             <Col lg={4} md={6} className="mt-4 pt-2">
                                 <div className="blog position-relative overflow-hidden shadow rounded">
                                     <div className="position-relative">
-                                        <img src={bg02} className="img-fluid rounded-top" alt="Landrick" />
+                                        <img src={bg02} className="img-fluid rounded-top" alt="SFLY" />
                                         <div className="overlay rounded-top bg-dark"></div>
                                     </div>
                                     <div className="content p-4">
@@ -80,7 +80,7 @@ class News extends Component {
                             <Col lg={4} md={6} className="mt-4 pt-2">
                                 <div className="blog position-relative overflow-hidden shadow rounded">
                                     <div className="position-relative">
-                                        <img src={bg03} className="img-fluid rounded-top" alt="Landrick" />
+                                        <img src={bg03} className="img-fluid rounded-top" alt="SFLY" />
                                         <div className="overlay rounded-top bg-dark"></div>
                                     </div>
                                     <div className="content p-4">

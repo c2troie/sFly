@@ -28,7 +28,7 @@ class Feature extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="main-title mb-4">What We Do ?</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -37,7 +37,7 @@ class Feature extends Component {
                             <Col md={4} className="col-12">
                                 <div className="features mt-5">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={pen} alt="Landrick" />
+                                        <img src={pen} alt="SFLY" />
                                     </div>
 
                                     <div className="content mt-4">
@@ -50,7 +50,7 @@ class Feature extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={video} alt="Landrick" />
+                                        <img src={video} alt="SFLY" />
                                     </div>
 
                                     <div className="content mt-4">
@@ -63,7 +63,7 @@ class Feature extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={intellectual} alt="Landrick" />
+                                        <img src={intellectual} alt="SFLY" />
                                     </div>
 
                                     <div className="content mt-4">
@@ -75,7 +75,7 @@ class Feature extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={user} alt="Landrick" />
+                                        <img src={user} alt="SFLY" />
                                     </div>
 
                                     <div className="content mt-4">
@@ -87,7 +87,7 @@ class Feature extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={calendar} alt="Landrick" />
+                                        <img src={calendar} alt="SFLY" />
                                     </div>
 
                                     <div className="content mt-4">
@@ -100,7 +100,7 @@ class Feature extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={sandClock} alt="Landrick" />
+                                        <img src={sandClock} alt="SFLY" />
                                     </div>
 
                                     <div className="content mt-4">
@@ -115,7 +115,7 @@ class Feature extends Component {
                     <div className="container-fluid">
                         <Row>
                             <div className="home-shape-arrow">
-                                <img src={arrowBottom} alt="Landrick" className="img-fluid mx-auto d-block" />
+                                <img src={arrowBottom} alt="SFLY" className="img-fluid mx-auto d-block" />
                                 <a href="#cta" className="mouse-down"><i className="mdi mdi-chevron-double-down arrow-icon mover text-dark h5"></i></a>
                             </div>
                         </Row>

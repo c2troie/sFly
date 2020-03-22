@@ -56,7 +56,7 @@ class Index extends Component {
                                 <Row className="align-items-center">
                                     <Col lg={6} md={7}>
                                         <div className="title-heading mt-4">
-                                            <div className="alert alert-light rounded-pill d-inline-block" role="alert"> <span className="badge rounded badge-secondary mr-2">Simple</span> Build <span className="text-success">anything</span> you want - Landrick</div>
+                                            <div className="alert alert-light rounded-pill d-inline-block" role="alert"> <span className="badge rounded badge-secondary mr-2">Simple</span> Build <span className="text-success">anything</span> you want - SFLY</div>
                                             <h1 className="heading mt-3 mb-3">Leading Digital Business For &nbsp;
                                             <Typist style={{ display : "contents" }}>
                                             <span className="element text-primary">Agency</span>

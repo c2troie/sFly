@@ -34,7 +34,7 @@ class PageContactDetail extends Component {
                                     <Col lg={6} md={7} className="offset-lg-6 offset-md-5">
                                         <div className="title-heading mt-5 pt-4">
                                             <h1 className="heading">Let's talk about your portfolio</h1>
-                                            <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                            <p className="text-muted">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                             <div className="contact-detail mt-3">
                                                 <div className="icon mt-3 float-left">
                                                     <i className="mdi mdi-email-variant text-muted mdi-36px mr-3"></i>

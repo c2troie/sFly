@@ -278,7 +278,7 @@ class Components extends Component {
                                             </div>
 
                                             <div className="p-4">
-                                                <h6 className="text-muted mb-4 pb-2">Ex. <code className="text-danger">&lt;div className="text-primary"&gt; Landrick Saas & Software Template &lt;/div&gt;</code></h6>
+                                                <h6 className="text-muted mb-4 pb-2">Ex. <code className="text-danger">&lt;div className="text-primary"&gt; SFLY Saas & Software Template &lt;/div&gt;</code></h6>
 
                                                 <h6 className="text-primary">.text-primary</h6>
                                                 <h6 className="text-secondary">.text-secondary</h6>
@@ -374,13 +374,13 @@ class Components extends Component {
                                                     <Col>
                                                         <TabContent activeTab={this.state.activeTab}>
                                                             <TabPane tabId="1" className="p-3">
-                                                            <p className="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                            <p className="text-muted mb-0">You can combine all the SFLY templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                                             </TabPane>
                                                             <TabPane tabId="2" className="p-3">
-                                                            <p className="text-muted mb-0">Can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                            <p className="text-muted mb-0">Can combine all the SFLY templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                                             </TabPane>
                                                             <TabPane tabId="3" className="p-3">
-                                                            <p className="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                            <p className="text-muted mb-0">You can combine all the SFLY templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                                             </TabPane>
                                                         </TabContent>
                                                      

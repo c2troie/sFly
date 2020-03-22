@@ -61,7 +61,7 @@ class Feature extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="title mb-4">Beautiful & Creative Interfaces</h4>
-                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -126,7 +126,7 @@ class Feature extends Component {
                             <Col lg={7} md={7} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
                                 <div className="section-title ml-lg-4">
                                     <h4 className="title mb-4">Startup Business Solution</h4>
-                                    <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <ul className="list-unstyled feature-list text-muted">
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
@@ -251,8 +251,8 @@ class Feature extends Component {
                         <Row className="justify-content-center">
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
-                                    <h4 className="main-title mb-4">See everything about your <span className="text-primary">Landrick</span></h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <h4 className="main-title mb-4">See everything about your <span className="text-primary">SFLY</span></h4>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>

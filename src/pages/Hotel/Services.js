@@ -28,7 +28,7 @@ class Services extends Component {
                             <div className="col-12 text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="main-title mb-4">Best Services for you</h4>
-                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </div>
                         </div>

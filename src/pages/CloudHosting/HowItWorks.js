@@ -30,7 +30,7 @@ class HowItWorks extends Component {
                             <Col lg={7} md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title ml-lg-5">
                                     <h4 className="title mb-4">Get best plan for more power with cloud Hosting</h4>
-                                    <p className="text-muted">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                    <p className="text-muted">You can combine all the SFLY templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                     <ul className="list-unstyled feature-list text-muted">
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
@@ -47,7 +47,7 @@ class HowItWorks extends Component {
                             <Col lg={6} md={6} className="order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title">
                                     <h4 className="title mb-4">Don't Compromise with the best web hosting solutions</h4>
-                                    <p className="text-muted">Using Landrick to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
+                                    <p className="text-muted">Using SFLY to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
                                     <ul className="list-unstyled feature-list text-muted">
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
@@ -72,7 +72,7 @@ class HowItWorks extends Component {
                             <Col lg={7} md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title ml-lg-5">
                                     <h4 className="title mb-4">Powerful Server & Web Hosting Plateform</h4>
-                                    <p className="text-muted">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                    <p className="text-muted">You can combine all the SFLY templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                     <ul className="list-unstyled feature-list text-muted">
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>

@@ -34,7 +34,7 @@ class Cta extends Component {
                             <Col className="text-center">
                                 <div className="section-title">
                                     <h4 className="main-title text-white mb-4">Stop leaving money on the table.</h4>
-                                    <p className="text-light para-desc mx-auto">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-light para-desc mx-auto">Start working with SFLY that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <Link  onClick={this.openModal} to="#" className="play-btn mt-2 video-play-icon">
                                         <i className="mdi mdi-play text-white"></i>
                                     </Link>

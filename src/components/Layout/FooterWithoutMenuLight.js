@@ -24,7 +24,7 @@ class FooterWithoutMenuLight extends Component {
                 <Row className="align-items-center">
                     <Col sm={6}>
                         <div className="text-sm-left">
-                            <p className="mb-0">©  {new Date().getFullYear()} Landrick. Develop by Themesbrand.</p>
+                            <p className="mb-0">©  {new Date().getFullYear()} SFLY. Develop by Themesbrand.</p>
                         </div>
                     </Col>
                     <Col sm={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">

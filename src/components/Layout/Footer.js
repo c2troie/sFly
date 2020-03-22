@@ -22,8 +22,8 @@ class Footer extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
-                        <Link className="logo-footer" to="#">Landrick<span className="text-primary">.</span></Link>
-                        <p className="mt-4">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <Link className="logo-footer" to="#">SFLY<span className="text-primary">.</span></Link>
+                        <p className="mt-4">Start working with SFLY that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item"><Link to="#" className="rounded mr-1"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                             <li className="list-inline-item"><Link to="#" className="rounded mr-1"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
@@ -32,7 +32,7 @@ class Footer extends Component {
                     </div>
                     
                     <div className="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <h4 className="text-light footer-head">Company</h4>
+                        <h4 className="text-light footer-head">SFLY</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             <li><Link to="#" className="text-foot"><i className="mdi mdi-chevron-right mr-1"></i> About us</Link></li>
                             <li><Link to="#" className="text-foot"><i className="mdi mdi-chevron-right mr-1"></i> Services</Link></li>
@@ -82,7 +82,7 @@ class Footer extends Component {
                 <div className="row align-items-center">
                     <div className="col-sm-6">
                         <div className="text-sm-left">
-                            <p className="mb-0">©  {new Date().getFullYear()}  Landrick. Develop by Themesbrand.</p>
+                            <p className="mb-0">©  {new Date().getFullYear()}  SFLY. Develop by Themesbrand.</p>
                         </div>
                     </div>
                     <div className="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">

@@ -137,7 +137,7 @@ class Index extends Component {
                                                 <Row className="align-items-center">
                                                     <Col lg={7} md={7}>
                                                         <div className="title-heading position-relative mt-4" style={{ zIndex: 1 }}>
-                                                            <h1 className="heading mb-3">Enjoy Better Holidays With Landrick Resort</h1>
+                                                            <h1 className="heading mb-3">Enjoy Better Holidays With SFLY Resort</h1>
                                                             <p className="para-desc">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
                                                             <div className="watch-video mt-4 pt-2">
                                                                 <Link to="#"  onClick={this.openModal} className="video-play-icon watch text-dark"><i className="mdi mdi-play play-icon-circle text-center d-inline-block mr-2 rounded-pill text-white position-relative play play-iconbar"></i> WATCH VIDEO</Link>
@@ -180,7 +180,7 @@ class Index extends Component {
                                                 <Row className="align-items-center">
                                                     <Col lg={7} md={7}>
                                                         <div className="title-heading position-relative mt-4" style={{ zIndex: 1 }}>
-                                                            <h1 className="heading mb-3">Welcome Landrick <br /> A Stunning Hotel</h1>
+                                                            <h1 className="heading mb-3">Welcome SFLY <br /> A Stunning Hotel</h1>
                                                             <p className="para-desc">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
                                                             <div className="watch-video mt-4 pt-2">
                                                                 <Link to="#"  className="btn btn-primary">Book now</Link>

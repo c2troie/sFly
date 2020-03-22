@@ -60,7 +60,7 @@ class Price extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="main-title mb-4">Charge your creative inspiration</h4>
-                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -150,7 +150,7 @@ class Price extends Component {
                             <Col lg={7} md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title ml-lg-5">
                                     <h4 className="title mb-4">A better compose with landrick marketing</h4>
-                                    <p className="text-muted">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                    <p className="text-muted">You can combine all the SFLY templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                     <ul className="list-unstyled feature-list mb-0 text-muted">
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                         <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
@@ -166,7 +166,7 @@ class Price extends Component {
                             <Col className="text-center">
                                 <div className="section-title mb-60">
                                     <h4 className="main-title mb-4">Important Clients Review</h4>
-                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>

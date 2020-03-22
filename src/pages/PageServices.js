@@ -219,7 +219,7 @@ class PageServices extends Component {
                             <Col md={4} className="col-12">
                                 <div className="features mt-5">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={pen} alt="Landrick" />
+                                        <img src={pen} alt="SFLY" />
                                     </div>
                                     <div className="content mt-4">
                                         <h4 className="title-2">Design & Development</h4>
@@ -244,7 +244,7 @@ class PageServices extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={intellectual} alt="Landrick" />
+                                        <img src={intellectual} alt="SFLY" />
                                     </div>
                                     <div className="content mt-4">
                                         <h4 className="title-2">Stratagy & Research</h4>
@@ -256,7 +256,7 @@ class PageServices extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={user} alt="Landrick" />
+                                        <img src={user} alt="SFLY" />
                                     </div>
                                     <div className="content mt-4">
                                         <h4 className="title-2">Easy To Use</h4>
@@ -268,7 +268,7 @@ class PageServices extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={calendar} alt="Landrick" />
+                                        <img src={calendar} alt="SFLY" />
                                     </div>
                                     <div className="content mt-4">
                                         <h4 className="title-2">Daily Reports</h4>
@@ -280,7 +280,7 @@ class PageServices extends Component {
                             <Col md={4} className="col-12 mt-5">
                                 <div className="features">
                                     <div className="image position-relative d-inline-block">
-                                        <img src={sandClock} alt="Landrick" />
+                                        <img src={sandClock} alt="SFLY" />
                                     </div>
                                     <div className="content mt-4">
                                         <h4 className="title-2">Real Time Zone</h4>
@@ -296,7 +296,7 @@ class PageServices extends Component {
                             <div className="col-12 text-center">
                                 <div className="section-title mb-60">
                                     <h4 className="main-title mb-4">Client Reviews</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </div>
                         </Row>
@@ -326,7 +326,7 @@ class PageServices extends Component {
                             <div className="col-12 text-center">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="main-title mb-4">Our Latest Projects</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </div>
                         </Row>
@@ -407,7 +407,7 @@ class PageServices extends Component {
                             <div className="col-12 text-center">
                                 <div className="section-title">
                                     <h4 className="title mb-4">See everything about your employee at one place.</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <div className="mt-3">
                                         <Link to="#" className="btn btn-primary mt-2 mr-2">Get Started Now</Link>
                                         <Link to="#" className="btn btn-outline-primary mt-2">Free Trial</Link>

@@ -30,7 +30,7 @@ class HowItWorks extends Component {
                     <Col className="text-center">
                         <div className="section-title mb-60">
                             <h4 className="main-title mb-4">How It Work ?</h4>
-                            <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         </div>
                     </Col>
                 </Row>
@@ -42,14 +42,14 @@ class HowItWorks extends Component {
 
                     <Col lg={7} md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div className="section-title ml-lg-5">
-                            <h4 className="title mb-4">Change the way you build websites</h4>
-                            <p className="text-muted">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                            <h4 className="title mb-4">Changer la facon d'embarquer</h4>
+                            <p className="text-muted">You can combine all the process into a single one, you can take <span className="text-primary font-weight-bold">SFLY</span> Application pour automaqtiser.</p>
                             <ul className="list-unstyled feature-list text-muted">
-                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
-                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
-                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Create your own skin to match your brand</li>
+                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Sérinité</li>
+                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Sécurié</li>
+                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Sssssss</li>
                             </ul>
-                            <Link to="#" className="mt-3 text-primary">Find Out More <i className="mdi mdi-chevron-right"></i></Link>
+                            
                         </div>
                     </Col>
                 </Row>
@@ -59,8 +59,8 @@ class HowItWorks extends Component {
                 <Row className="align-items-center">
                     <Col lg={7} md={6} className="order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div className="section-title">
-                            <h4 className="title mb-4">Speed up your development <br /> with <span className="text-primary">Landrick.</span></h4>
-                            <p className="text-muted">Using Landrick to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
+                            <h4 className="title mb-4">Speed up your development <br /> with <span className="text-primary">SFLY.</span></h4>
+                            <p className="text-muted">Using SFLY to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
                             <ul className="list-unstyled feature-list text-muted">
                                 <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                 <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>

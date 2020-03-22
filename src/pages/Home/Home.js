@@ -26,7 +26,7 @@ class Home extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-7 col-md-7">
                                         <div className="section-title">
-                                            <h1 className="logo">Landrick<span className="text-custom">.</span></h1>
+                                            <h1 className="logo">SFLY<span className="text-custom">.</span></h1>
                                             <h2 className="font-weight-bold mb-3 d-flex">Built For
                                             &nbsp;
                                             <Typist>
@@ -63,7 +63,7 @@ class Home extends Component {
                                             <span className="element text-custom">Single Product</span>
                                              </Typist>
                                             </h2>
-                                            <p className="text-muted mb-0">Start working with <span className="text-custom font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                            <p className="text-muted mb-0">Start working with <span className="text-custom font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                             <div className="mt-4 pt-2">
 
                                               <ScrollspyNav

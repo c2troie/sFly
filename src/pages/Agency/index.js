@@ -86,7 +86,7 @@ class IndexAgency extends Component {
                                 <Row className="align-items-center">
                                     <Col lg={7} md={7} className="order-1 order-md-2">
                                         <div className="title-heading mt-4 ml-lg-5">
-                                            <h1 className="heading mb-3">We are Startup Creative <span className="text-primary">Landrick</span> Agency</h1>
+                                            <h1 className="heading mb-3">We are Startup Creative <span className="text-primary">SFLY</span> Agency</h1>
                                             <p className="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
                                             <div className="watch-video mt-4 pt-2">
                                                 <Link to="#" className="btn btn-primary">Learn More <i className="mdi mdi-chevron-right"></i></Link>
