@@ -96,7 +96,7 @@ class Documentation extends Component {
                                     <span className="text-danger">   &lt;head&gt;</span> <br /><br />
 
                                     <span className="text-danger">     &lt;meta charset="utf-8" /&gt;</span> <br />
-                                    <span className="text-danger">     &lt;title&gt;</span><span className="text-primary"> SFLY - Saas & Software Landing Page Template </span><span className="text-danger">&lt;/title&gt;</span> <br />
+                                    <span className="text-danger">     &lt;title&gt;</span><span className="text-primary"> SFLY - Improve your flight  </span><span className="text-danger">&lt;/title&gt;</span> <br />
                                     <span className="text-danger">      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</span> <br />
                                     <span className="text-danger">      &lt;meta name="description" content="Site description" /&gt;</span> <br />
                                     <span className="text-danger">      &lt;meta name="keywords" content="Your tags" /&gt;</span> <br /> <br />
