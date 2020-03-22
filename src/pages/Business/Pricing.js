@@ -85,64 +85,7 @@ class Pricing extends Component {
                             </Col>
                         </Row>
                     </div>
-
-
-                    <div className="container mt-100 mt-60">
-                        <Row className="align-items-center">
-                            <Col lg={6}>
-                                <div className="section-title">
-                                    <h4 className="title mb-4">See everything about your <span className="text-primary">SFLY</span> Business</h4>
-                                    <p className="text-muted para-desc">Start working with <span className="text-primary font-weight-bold">SFLY</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                                    <ul className="list-unstyled feature-list text-muted">
-                                        <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
-                                        <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
-                                        <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Create your own skin to match your brand</li>
-                                    </ul>
-                                </div>
-                            </Col>
-
-                            <Col lg={6}>
-                                <div className="row ml-lg-5" id="counter">
-                                    <div className="col-md-6 col-12">
-                                        <Row>
-                                            <Col className="mt-4 pt-2 col-12">
-                                                <div className="counter-box position-relative counter-border bg-light shadow rounded p-4 pt-5 pb-5 text-center">
-                                                    <h2 className="mb-0"><span className="counter-value" data-count="97">3</span>%</h2>
-                                                    <h5 className="counter-head">Happy Client</h5>
-                                                </div>
-                                            </Col>
-
-                                            <Col className="mt-4 pt-2 col-12">
-                                                <div className="counter-box position-relative counter-border bg-primary shadow rounded p-4 pt-5 pb-5 text-center">
-                                                    <h2 className="text-light mb-0"><span className="counter-value" data-count="15">1</span>+</h2>
-                                                    <h5 className="counter-head text-light">Awards</h5>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-
-                                    <Col md={6} className="col-12">
-                                        <Row className="pt-lg-5 mt-lg-4">
-                                            <Col className="mt-4 pt-2 col-12">
-                                                <div className="counter-box position-relative counter-border bg-success shadow rounded p-4 pt-5 pb-5 text-center">
-                                                    <h2 className="text-light mb-0"><span className="counter-value" data-count="2">0</span>K</h2>
-                                                    <h5 className="counter-head text-light">Job Placement</h5>
-                                                </div>
-                                            </Col>
-
-                                            <Col className="mt-4 pt-2 col-12">
-                                                <div className="counter-box position-relative counter-border bg-light shadow rounded p-4 pt-5 pb-5 text-center">
-                                                    <h2 className="mb-0"><span className="counter-value" data-count="98">3</span>%</h2>
-                                                    <h5 className="counter-head">Project Complete</h5>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
-                </section>
+</section>
             </React.Fragment>
         );
     }

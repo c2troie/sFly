@@ -55,65 +55,7 @@ class HowItWorks extends Component {
                 </Row>
             </div>
 
-            <div className="container mt-100 mt-60">
-                <Row className="align-items-center">
-                    <Col lg={7} md={6} className="order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <div className="section-title">
-                            <h4 className="title mb-4">Speed up your development <br /> with <span className="text-primary">SFLY.</span></h4>
-                            <p className="text-muted">Using SFLY to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
-                            <ul className="list-unstyled feature-list text-muted">
-                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
-                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
-                                <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Create your own skin to match your brand</li>
-                            </ul>
-                            <Link to="#" className="mt-3 text-primary">Find Out More <i className="mdi mdi-chevron-right"></i></Link>
-                        </div>
-                    </Col>
-
-                    <Col lg={5} md={6} className="order-1 order-md-2">
-                        <div className="p-4 rounded bg-white feature-form border ml-lg-5">
-                            <img src={mobileNotificationSVG} alt="" />
-
-                            <div className="content mt-4 pt-2">
-                            <Alert color="info" isOpen={this.state.Contactvisible} toggle={()=>{ this.setState({Contactvisible : !this.state.Contactvisible}) }}>
-                                            Download Successfully.
-                                         </Alert>
-                                <form onSubmit={this.handleSubmit}>
-                                    <Row>
-                                        <Col lg={12}>
-                                            <div className="form-group position-relative">
-                                                <label>Name : <span className="text-danger">*</span></label>
-                                                <i className="mdi mdi-account ml-3 icons"></i>
-                                                <input type="text" className="form-control pl-5" placeholder="Name" name="name" required="" />
-                                            </div>
-                                        </Col>
-
-                                        <Col lg={12}>
-                                            <div className="form-group position-relative">
-                                                <label>Email : <span className="text-danger">*</span></label>
-                                                <i className="mdi mdi-email ml-3 icons"></i>
-                                                <input type="email" className="form-control pl-5" placeholder="Email" name="email" required />
-                                            </div>
-                                       </Col>
-
-                                       <Col lg={12}>
-                                            <div className="form-group position-relative">
-                                                <label>Password : <span className="text-danger">*</span></label>
-                                                <i className="mdi mdi-key ml-3 icons"></i>
-                                                <input type="password" className="form-control pl-5" placeholder="Password" required />
-                                            </div>
-                                        </Col>
-                                        <Col lg={12} className="mt-3 mb-0">
-                                            <button type="submit" className="btn btn-primary w-100">Download</button>
-                                        </Col>
-                                    </Row>
-                                </form>                                    
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-            </div>
-        </section>
+             </section>
             </React.Fragment>
         );
     }
