@@ -15,6 +15,7 @@ import Faqs from "./Faqs";
 import Partners from "../../components/Shared/Partner";
 import Speakers from "../Event/Speakers";
 import HowItWorks from "../../components/Shared/HowItWorks";
+import Counter from './Counter';
 
 //Style Media Queries
 import "./style.css";
@@ -205,6 +206,7 @@ const Index = () => {
 
       {/* HowItWorks */}
       <HowItWorks />
+      
 
       {/* Impact Business */}
 

@@ -97,21 +97,7 @@ class Speakers extends Component {
 
 
 
-                    <div className="container mt-100 mt-50">
-                        <Row className="justify-content-center">
-                            <Col className="text-center">
-                                <div className="section-title mb-4 pb-2">
-                                    <h4 className="title mb-4">Event Sponsors</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Ya R pour l'instant, c'est nous les Sponsors</p>
-                                </div>
-                            </Col>
-                        </Row>
-
-                        <div className="row justify-content-center">
-                            <Partner />
-                        </div>
-                    </div>
-
+                    
                     <div className="container-fluid">
                         <Row>
                             <div className="home-shape-bottom">

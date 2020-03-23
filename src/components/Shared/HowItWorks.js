@@ -6,6 +6,12 @@ import { Link } from 'react-router-dom';
 // Import Images 
 import seoSVG from '../../images/illustrator/SEO_SVG.svg';
 import mobileNotificationSVG from '../../images/illustrator/Mobile_notification_SVG.svg';
+import Asset190 from '../../images/illustrator/Asset190.svg';
+import Asset189 from '../../images/illustrator/Asset189.svg';
+import Asset186 from '../../images/illustrator/Asset186.svg';
+import Asset187 from '../../images/illustrator/Asset187.svg';
+
+import CountUp from 'react-countup';
 
 class HowItWorks extends Component {
 
@@ -54,7 +60,40 @@ class HowItWorks extends Component {
                     </Col>
                 </Row>
             </div>
-
+            <div className="container mt-100 mt-60">
+                       
+                        <Row id="counter">
+                            <Col md={3}  className="col-6 mt-4 pt-2">
+                                <div className="counter-box text-center">
+                                    <img src={Asset190} height="70" alt="" />
+                                    <h2 className="mb-0 mt-3"><span className="counter-value" data-count="45000"> <CountUp start={0} end={45000} duration={8} /></span>$</h2>
+                                    <h5 className="counter-head text-muted">Investment</h5>
+                                </div>
+                            </Col>
+                            <Col md={3}  className="col-6 mt-4 pt-2">
+                                <div className="counter-box text-center">
+                                    <img src={Asset189} height="70" alt="" />
+                                    <h2 className="mb-0 mt-3"><span className="counter-value" data-count="9"> <CountUp start={0} end={9} duration={8} /></span>+</h2>
+                                    <h5 className="counter-head text-muted">Awards</h5>
+                                </div>
+                            </Col>
+                            <Col md={3}  className="col-6 mt-4 pt-2">
+                                <div className="counter-box text-center">
+                                    <img src={Asset186} height="70" alt="" />
+                                    <h2 className="mb-0 mt-3"><span className="counter-value" data-count="48002"> <CountUp start={0} end={48002} duration={8} /></span>$</h2>
+                                    <h5 className="counter-head text-muted">Profitability</h5>
+                                </div>
+                            </Col>
+                            <Col md={3}  className="col-6 mt-4 pt-2">
+                                <div className="counter-box text-center">
+                                    <img src={Asset187} height="70" alt="" />
+                                    <h2 className="mb-0 mt-3"><span className="counter-value" data-count="11"><CountUp start={0} end={11} duration={8} /></span>%</h2>
+                                    <h5 className="counter-head text-muted">Growth</h5>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                
              </section>
             </React.Fragment>
         );
