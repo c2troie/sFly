@@ -122,6 +122,57 @@ const Index = () => {
                         >
                           Security
                         </span>
+                        <Typist.Backspace count={15} delay={400} />
+                        
+                        <span
+                          className="element text-custom"
+                          style={{ color: "#4466d8" }}
+                        >
+                          Serinity
+                        </span>
+                        <Typist.Backspace count={15} delay={400} />
+
+                        <span
+                          className="element text-custom"
+                          style={{ color: "#4466d8" }}
+                        >
+                          Security
+                        </span>
+                        <Typist.Backspace count={15} delay={400} />
+
+                        <span
+                          className="element text-custom"
+                          style={{ color: "#4466d8" }}
+                        >
+                          Serinity
+                        </span>
+                        <Typist.Backspace count={15} delay={400} />
+
+                        <span
+                          className="element text-custom"
+                          style={{ color: "#4466d8" }}
+                        >
+                          Security
+                        </span>
+                        <Typist.Backspace count={15} delay={400} />
+
+                        <span
+                          className="element text-custom"
+                          style={{ color: "#4466d8" }}
+                        >
+                          Serinity
+                        </span>
+                        <Typist.Backspace count={15} delay={400} />
+
+                        <span
+                          className="element text-custom"
+                          style={{ color: "#4466d8" }}
+                        >
+                          Security
+                        </span>
+                        
+
+                        
                       </Typist>
                     </h2>
 
