@@ -7,6 +7,7 @@ export const ApiRequest = class ApiRequest {
     console.log('route',route)
     console.log('params',params)
     console.log('pro',process.env.API_URL || 'http://localhost:8080/' + route + params)
+    console.log('pro',process)
     return await Request.fetch(process.env.API_URL || 'http://localhost:8080/' + route + params, {
       method: 'POST',
       headers: {
