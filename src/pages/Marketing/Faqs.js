@@ -44,24 +44,31 @@ class Faqs extends Component {
                                         <div className="card border rounded shadow mb-2">
                                             <Link  to="#" onClick={() => this.setState({collapse1 : !this.state.collapse1,collapse3 : false, collapse2 : false,collapse4 : false})} className={this.state.collapse1 ? "faq position-relative text-primary" :  "faq position-relative text-dark" } >
                                                 <div className="card-header bg-light p-3">
-                                                    <h4 className="title mb-0 faq-question"> How our SLFY work ? </h4>
+                                                    <h4 className="title mb-0 faq-question"> Comment SFLY fonctionne ? </h4>
                                                 </div>
                                             </Link>
                                             <Collapse isOpen={this.state.collapse1}>
                                                 <div className="card-body">
-                                                    <p className="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                                    <p className="text-muted mb-0 faq-ans">
+                                                        Pour le décolage de l'avions, il y a une batterie de test a éffectuer avant le décollages,
+                                                        Voir si les équipé au sol ont bien checker l'avion et qu'aucune anomalie n'a était détecter.
+                                                        Verifier si tout les passager enregister sont bien a bords...
+                                                    </p>
                                                 </div>
                                             </Collapse>
                                           </div>
                                         <div className="card border rounded shadow mb-2">
                                         <Link  to="#" onClick={() => this.setState({collapse2 : !this.state.collapse2,collapse3 : false, collapse4 : false,collapse1 : false})} className={this.state.collapse2 ? "faq position-relative text-primary" :  "faq position-relative text-dark" }>
                                                 <div className="card-header bg-light p-3">
-                                                    <h4 className="title mb-0 faq-question">  Question 1 ? </h4>
+                                                    <h4 className="title mb-0 faq-question">  C'est l'application SFLY ? </h4>
                                                 </div>
                                             </Link>
                                             <Collapse isOpen={this.state.collapse2}>
                                                 <div className="card-body">
-                                                    <p className="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                                    <p className="text-muted mb-0 faq-ans">
+                                                        Sfly est une application, securiser et qui sera sur une tablette.
+                                                        
+                                                    </p>
                                                 </div>
                                             </Collapse>
                                         </div>
@@ -69,12 +76,14 @@ class Faqs extends Component {
                                         <div className="card border rounded shadow mb-2">
                                         <Link  to="#" onClick={() => this.setState({collapse3 : !this.state.collapse3,collapse4 : false, collapse2 : false,collapse1 : false})} className={this.state.collapse3 ? "faq position-relative text-primary" :  "faq position-relative text-dark" }>
                                                 <div className="card-header bg-light p-3">
-                                                    <h4 className="title mb-0 faq-question">Question 2 ? </h4>
+                                                    <h4 className="title mb-0 faq-question">Qui aura acces a la tablette ? </h4>
                                                 </div>
                                             </Link>
                                             <Collapse isOpen={this.state.collapse3}>
                                                 <div className="card-body">
-                                                    <p className="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which believable.</p>
+                                                    <p className="text-muted mb-0 faq-ans">
+                                                        Toute perssone habilitée, qui verifira l'etat de lieu de l'avion avant le décollage.
+                                                    </p>
                                                 </div>
                                             </Collapse>
                                         </div>
@@ -82,12 +91,14 @@ class Faqs extends Component {
                                         <div className="card rounded shadow mb-0">
                                         <Link  to="#" onClick={() => this.setState({collapse4 : !this.state.collapse4, collapse3 : false, collapse2 : false,collapse1 : false})} className={this.state.collapse4 ? "faq position-relative text-primary" :  "faq position-relative text-dark" }>
                                                 <div className="card-header bg-light p-3">
-                                                    <h4 className="title mb-0 faq-question"> Question 3 ? </h4>
+                                                    <h4 className="title mb-0 faq-question"> Qui aura acces a l'application ? </h4>
                                                 </div>
                                             </Link>
                                             <Collapse isOpen={this.state.collapse4}>
                                                 <div className="card-body">
-                                                    <p className="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which believable.</p>
+                                                    <p className="text-muted mb-0 faq-ans">
+                                                        L'application aura un systeme de droits selon l'habilitation de chacun.
+                                                    </p>
                                                 </div>
                                             </Collapse>
                                         </div>

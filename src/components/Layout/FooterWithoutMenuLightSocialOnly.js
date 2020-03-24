@@ -16,7 +16,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                         <div className="row align-items-center">
                             <div className="col-sm-6">
                                 <div className="text-sm-left">
-                                    <p className="mb-0 text-dark">© {new Date().getFullYear()} SFLY. Develop by Themesbrand.</p>
+                                    <p className="mb-0 text-dark">© {new Date().getFullYear()} SFLY. Develop by MKstudio.</p>
                                 </div>
                             </div>
 

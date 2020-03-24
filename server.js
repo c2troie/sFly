@@ -1,58 +1,50 @@
 //server.js
-const express = require('express');
-const favicon = require('express-favicon');
-const path = require('path');
+const express = require("express");
+const favicon = require("express-favicon");
+const path = require("path");
 const port = process.env.PORT || 8080;
 const app = express();
 const nodemailer = require("nodemailer");
-var xoauth2 = require('xoauth2');
-var smtpTransport = require('nodemailer-smtp-transport');
-app.use(favicon(__dirname + '/build/favicon.ico'));
+
+
+app.use(favicon(__dirname + "/build/favicon.ico"));
+
 // the __dirname is the current directory from where the script is running
 app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, 'build')));
-app.get('/ping', function (req, res) {
- return res.send('pong');
-});
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+app.use(express.static(path.join(__dirname, "build")));
+app.get("/ping", function(req, res) {
+  return res.send("pong");
 });
 
-app.get('/sendEmail', function (req, res) {
-  //console.log('REQ',req)
+app.get("/", function(req, res) {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
+app.get("/send-email", function(req, res) {
+  let email = req.query.email
+  console.log("email", email);
   //console.log('RES',res)
-
-  
-  var smtpTransport = nodemailer.createTransport("SMTP",{
-    service: "Gmail",
-    auth: {
-      xoauth2: xoauth2.createXOAuth2Generator({
-        user: 'sfly.suppor@gmail.com',
-        pass: 'sfly123741',
-      })
-        
+  var transporter = nodemailer.createTransport(
+    "smtps://sfly.suppor%40gmail.com:sfly123741@smtp.gmail.com"
+  );
+  // setup e-mail data with unicode symbols
+  var mailOptions = {
+    from: '"Sfly Support " <sfly.suppor@gmail.com>', // sender address
+    to: "k_ouazari@hotmail.fr", // list of receivers
+    subject: "Newsletters ✔", // Subject line
+    text: "Merci pour votre subscription à notre newsletters", // plaintext body
+    html: "<b>Merci pour votre subscription à notre newsletters ????</b>" // html body
+  };
+  // send mail with defined transport object
+  transporter.sendMail(mailOptions, function(error, info) {
+    if (error) {
+      return console.log(error);
     }
+
+    console.log("Message sent: " + info.response);
+    transporter.close();
+    return res.send(info);
   });
-  var mail = {
-    from: "sfly.suppor@gmail.com",
-    to: "k_ouazari@hotmail.fr",
-    subject: "Newsletters",
-    html: "Coucou"
-  }
-
-  smtpTransport.sendMail(mail, function(error, response){
-    if(error){
-      console.log("Erreur lors de l'envoie du mail!");
-      
-      //console.log(error);
-    }else{
-      console.log("Mail envoyé avec succès!")
-    }
-    smtpTransport.close();
-  });
-
-  
- });
-
+});
 
 app.listen(port);

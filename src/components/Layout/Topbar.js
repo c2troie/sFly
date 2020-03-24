@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { withRouter } from "react-router";
 import ModalVideo from "react-modal-video";
-
+import { withRouter } from "react-router";
+import { Link } from "react-router-dom";
 //Image Logo
-import logo from '../../images/sFly/banner.png';
+import logo from "../../images/sFly/banner.png";
+
 class Topbar extends Component {
   constructor(props) {
     super(props);
@@ -28,8 +28,6 @@ class Topbar extends Component {
     this.setState(prevState => ({ isOpen: !prevState.isOpen }));
   }
 
-  
-
   activateParentDropdown = item => {
     const parent = item.parentElement;
     if (parent) {
@@ -52,9 +50,8 @@ class Topbar extends Component {
   };
 
   openModal = () => {
-    this.setState({isOpenModal:true});
+    this.setState({ isOpenModal: true });
   };
-
 
   render() {
     return (
@@ -63,19 +60,21 @@ class Topbar extends Component {
           <div className="container">
             <div>
               <Link className="logo" to="/index">
-<div style={{display:'flex',alignItems:'center'}}>
-<img src={logo} alt="Logo" style={{height:40,width:40}}/>
-                <span style={{paddingLeft:10}}>SFLY</span>
-</div>
-             
-
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <img
+                    src={logo}
+                    alt="Logo"
+                    style={{ height: 40, width: 40 }}
+                  />
+                  <span style={{ paddingLeft: 10 }}>SFLY</span>
+                </div>
               </Link>
             </div>
 
             <div className="buy-button">
               <div className="watch-video ">
                 <Link
-                  onClick={()=>this.setState({isOpenModal:true})}
+                  onClick={() => this.setState({ isOpenModal: true })}
                   to="#"
                   className="video-play-icon watch text-dark"
                 >
@@ -86,13 +85,10 @@ class Topbar extends Component {
                   channel="youtube"
                   isOpen={this.state.isOpenModal}
                   videoId="L61p2uyiMSo"
-                  onClose={() => this.setState({isOpenModal:false})}
+                  onClose={() => this.setState({ isOpenModal: false })}
                 />
               </div>
             </div>
-            
-
-           
           </div>
         </header>
       </React.Fragment>

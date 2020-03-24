@@ -1,31 +1,26 @@
 // React Basic and Bootstrap
-import React, { Component, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { Row, Col } from "reactstrap";
-import Typist from "react-typist";
+import React, { useEffect, useState } from "react";
 import ModalVideo from "react-modal-video";
-
+import { Link } from "react-router-dom";
+import Typist from "react-typist";
+import { Col, Row } from "reactstrap";
+import Feature from "../../components/Shared/Feature";
+import HowItWorks from "../../components/Shared/HowItWorks";
+import calendar from "../../images/icon/calendar.svg";
+import sandClock from "../../images/icon/sand-clock.svg";
+// Import images
+import user from "../../images/icon/user.svg";
 // Import images
 import marketingShape from "../../images/marketing/marketing-shape.png";
 import marketing from "../../images/marketing/marketing.png";
-
-// import generic component
-
-import Faqs from "./Faqs";
-import Partners from "../../components/Shared/Partner";
+import curveLight from "../../images/shapes/curve-light.png";
 import Speakers from "../Event/Speakers";
-import HowItWorks from "../../components/Shared/HowItWorks";
-import Counter from './Counter';
-
+// import generic componen t
+import Faqs from "./Faqs";
+import Newsletter from "./Newsletter";
 //Style Media Queries
 import "./style.css";
 
-// Import images
-import user from "../../images/icon/user.svg";
-import calendar from "../../images/icon/calendar.svg";
-import sandClock from "../../images/icon/sand-clock.svg";
-import curveLight from "../../images/shapes/curve-light.png";
-import Feature from "../../components/Shared/Feature";
 
 const Index = () => {
   const [open, isOpen] = useState(false);
@@ -55,38 +50,30 @@ const Index = () => {
   const featureArray = [
     {
       id: 1,
-      title: "Easy To Use",
+      title: "Facile d'utilisation",
       description:
-        "Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper. ",
+        "L'application très facile d'utilisation avec un design épurée et ergonomique. ",
       imgUrl: user
     },
     {
       id: 2,
-      title: "Daily Reports",
+      title: "Rapport Journalier",
       description:
-        "Allegedly, a Latin scholar established the origin of the established text by compiling unusual word.",
+        "Chaque commandant de bors aura un récap de son prochain vol avec le trafic météo selon sa destination.",
       imgUrl: calendar
     },
     {
       id: 3,
       title: "Real Time Zone",
       description:
-        "It seems that only fragments of the original text remain in only fragments the Lorem Ipsum texts used today.",
+        "Un systeme de notification pour informer le pilote ou les perssone a prevenir en cas d'incident.",
       imgUrl: sandClock
     }
   ];
 
   return (
     <React.Fragment>
-      {/* <div id="preloader">
-                <div id="status">
-                    <div className="spinner">
-                        <div className="double-bounce1"></div>
-                        <div className="double-bounce2"></div>
-                    </div>
-                </div>
-            </div> */}
-
+      
       {/* Hero Start */}
       <section
         className="bg-marketing"
@@ -124,22 +111,6 @@ const Index = () => {
                           Security
                         </span>
                         <Typist.Backspace count={15} delay={400} />
-                        
-                        <span
-                          className="element text-custom"
-                          style={{ color: "#4466d8" }}
-                        >
-                          Serinity
-                        </span>
-                        <Typist.Backspace count={15} delay={400} />
-
-                        <span
-                          className="element text-custom"
-                          style={{ color: "#4466d8" }}
-                        >
-                          Security
-                        </span>
-                        <Typist.Backspace count={15} delay={400} />
 
                         <span
                           className="element text-custom"
@@ -171,9 +142,22 @@ const Index = () => {
                         >
                           Security
                         </span>
-                        
+                        <Typist.Backspace count={15} delay={400} />
 
-                        
+                        <span
+                          className="element text-custom"
+                          style={{ color: "#4466d8" }}
+                        >
+                          Serinity
+                        </span>
+                        <Typist.Backspace count={15} delay={400} />
+
+                        <span
+                          className="element text-custom"
+                          style={{ color: "#4466d8" }}
+                        >
+                          Security
+                        </span>
                       </Typist>
                     </h2>
 
@@ -206,66 +190,87 @@ const Index = () => {
 
       {/* HowItWorks */}
       <HowItWorks />
-      
 
       {/* Impact Business */}
-
-
       <div className="container mt-100 mt-60">
-                        <Row className="align-items-center">
-                            <Col lg={6}>
-                                <div className="section-title">
-                                    <h4 className="title mb-4">See everything about your Flight</h4>
-                                    <p className="text-muted para-desc">Automatiser les process chronophage grace à <span className="text-primary font-weight-bold">SFLY</span>.</p>
-                                    <ul className="list-unstyled feature-list text-muted">
-                                        <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Gagner en Sécurity</li>
-                                        <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Gagner en Temps</li>
-                                        <li><i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Gagner en Argents</li>
-                                    </ul>
-                                </div>
-                            </Col>
+        <Row className="align-items-center">
+          <Col lg={6}>
+            <div className="section-title">
+              <h4 className="title mb-4">See everything about your Flight</h4>
+              <p className="text-muted para-desc">
+                Automatiser les process chronophage grace à{" "}
+                <span className="text-primary font-weight-bold">SFLY</span>.
+              </p>
+              <ul className="list-unstyled feature-list text-muted">
+                <li>
+                  <i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>
+                  Gagner en Sécurity
+                </li>
+                <li>
+                  <i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>
+                  Gagner en Temps
+                </li>
+                <li>
+                  <i className="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>
+                  Gagner en Argents
+                </li>
+              </ul>
+            </div>
+          </Col>
 
-                            <Col lg={6}>
-                                <div className="row ml-lg-5" id="counter">
-                                    <div className="col-md-6 col-12">
-                                        <Row>
-                                            <Col className="mt-4 pt-2 col-12">
-                                                <div className="counter-box position-relative counter-border bg-light shadow rounded p-4 pt-5 pb-5 text-center">
-                                                    <h2 className="mb-0"><span className="counter-value" data-count="97">97</span>%</h2>
-                                                    <h5 className="counter-head">Temps</h5>
-                                                </div>
-                                            </Col>
-
-                                            <Col className="mt-4 pt-2 col-12">
-                                                <div className="counter-box position-relative counter-border bg-primary shadow rounded p-4 pt-5 pb-5 text-center">
-                                                    <h2 className="text-light mb-0"><span className="counter-value" data-count="15">1 000 000</span>$</h2>
-                                                    <h5 className="counter-head text-light">Money</h5>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-
-                                    <Col md={6} className="col-12">
-                                        <Row className="pt-lg-5 mt-lg-4">
-                                            <Col className="mt-4 pt-2 col-12">
-                                                <div className="counter-box position-relative counter-border bg-success shadow rounded p-4 pt-5 pb-5 text-center">
-                                                    <h2 className="text-light mb-0"><span className="counter-value" data-count="2">87</span>%</h2>
-                                                    <h5 className="counter-head text-light">Security</h5>
-                                                </div>
-                                            </Col>
-
-                                            
-                                        </Row>
-                                    </Col>
-                                </div>
-                            </Col>
-                        </Row>
+          <Col lg={6}>
+            <div className="row ml-lg-5" id="counter">
+              <div className="col-md-6 col-12">
+                <Row>
+                  <Col className="mt-4 pt-2 col-12">
+                    <div className="counter-box position-relative counter-border bg-light shadow rounded p-4 pt-5 pb-5 text-center">
+                      <h2 className="mb-0">
+                        <span className="counter-value" data-count="97">
+                          97
+                        </span>
+                        %
+                      </h2>
+                      <h5 className="counter-head">Temps</h5>
                     </div>
-                
+                  </Col>
+
+                  <Col className="mt-4 pt-2 col-12">
+                    <div className="counter-box position-relative counter-border bg-primary shadow rounded p-4 pt-5 pb-5 text-center">
+                      <h2 className="text-light mb-0">
+                        <span className="counter-value" data-count="15">
+                          1 000 000
+                        </span>
+                        $
+                      </h2>
+                      <h5 className="counter-head text-light">Money</h5>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+
+              <Col md={6} className="col-12">
+                <Row className="pt-lg-5 mt-lg-4">
+                  <Col className="mt-4 pt-2 col-12">
+                    <div className="counter-box position-relative counter-border bg-success shadow rounded p-4 pt-5 pb-5 text-center">
+                      <h2 className="text-light mb-0">
+                        <span className="counter-value" data-count="2">
+                          87
+                        </span>
+                        %
+                      </h2>
+                      <h5 className="counter-head text-light">Security</h5>
+                    </div>
+                  </Col>
+                </Row>
+              </Col>
+            </div>
+          </Col>
+        </Row>
+      </div>
+
       {/* Faqs */}
       <Faqs />
-
-      {/* Feature */}
+      {/* Feature Delimitation */}
       <section className="section">
         <div className="container">
           <Feature featureArray={featureArray} isCenter={false} />
@@ -287,48 +292,9 @@ const Index = () => {
       {/* Partner */}
       <Speakers />
 
-      <div className="container mt-100 mt-60">
-        <Row className="justify-content-center">
-          <Col className="text-center">
-            <div className="section-title mb-4 pb-2">
-              <h4 className="title mb-4">Sign up for our Newsletter</h4>
-              <p className="text-muted para-desc mx-auto mb-0">
-                Tenez vous informez &{" "}
-                <span className="text-primary font-weight-bold">SFLY</span> vous
-                enverra les Newsletter
-              </p>
-            </div>
-          </Col>
-        </Row>
-        <Row className="justify-content-center mt-4 pt-2">
-          <Col lg={7} md={10}>
-            <form>
-              <div className="form-group">
-                <div className="input-group mb-3">
-                  <input
-                    name="email"
-                    id="email"
-                    type="email"
-                    className="form-control"
-                    placeholder="Your email :"
-                    required
-                    aria-describedby="newssubscribebtn"
-                  />
-                  <div className="input-group-append">
-                    <button
-                      className="btn btn-primary submitBnt"
-                      type="button"
-                      id="newssubscribebtn"
-                    >
-                      Subscribe
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </Col>
-        </Row>
-      </div>
+      {/* Newsletter */}
+      <Newsletter />
+      
     </React.Fragment>
   );
 };

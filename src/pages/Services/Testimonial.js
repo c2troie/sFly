@@ -217,6 +217,7 @@ class Testimonial extends Component {
                             </Col>
                         </Row>
                     </div>
+                
                 </section>
             </React.Fragment>
         );
