@@ -1,4 +1,5 @@
 import {Request} from "./Request";
+import { config } from "./config";
 
 export const ApiRequest = class ApiRequest {
   constructor(){}
@@ -6,14 +7,14 @@ export const ApiRequest = class ApiRequest {
   static async post(route, params){
     console.log('route',route)
     console.log('params',params)
-    console.log('pro',process.env.API_URL || 'http://localhost:8080/' + route + params)
+    
     console.log('pro',process)
-    return await Request.fetch(process.env.API_URL || 'http://localhost:8080/' + route + params, {
+
+    return await Request.fetch(config.apiUrl + route + params, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        
       }
     }).catch(err=>console.log('ERROR POST',err));
   }
