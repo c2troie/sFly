@@ -1,18 +1,14 @@
 // React Basic and Bootstrap
 import React, { Component, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { Row, Col, Alert } from "reactstrap";
-import axios from "axios";
-import path from "path";
+
 import { ApiRequest } from "../../controllers/ApiRequest";
 
 const Newsletter = () => {
   const [contactvisible, setContactvisible] = useState(false);
   const [email, setEmail] = useState("");
 
-  const URL = `http://localhost:${process.env.PORT ||
-    8080}/send-email?email=${email}`;
-
+  
   useEffect(() => {}, []);
 
   const handleSubmit = async event => {
@@ -21,22 +17,7 @@ const Newsletter = () => {
     
     await ApiRequest.post('send-email',email);
 
-    //console.log('PORT',process.env.PORT)
-    //console.log('PORT',process.env.URL)
-    //
-    //console.log('EMAL',`${process.env.PORT || 8080}/send-email?email=${email}`)
-    //console.log('PATH',path.join(__dirname, "build"))
-    //console.log('URL',URL)
-
-    //return ApiRequest.post('send-email?email=', email)
-
-    // return axios.post(`/send-email?email=${email}`)
-    // .then(res => {
-    //   setContactvisible(true);
-    //   setTimeout(()=>setContactvisible(false),2000)
-    // }).catch(e=>{
-    //   console.log('EROR',e)
-    // })
+   
   };
   const handleChange = event => {
     setEmail(event.target.value);

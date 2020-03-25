@@ -1,12 +1,12 @@
 import {Request} from "./Request";
 
 //export const API_URL="https://sfly.herokuapp.com";
-export const API_URL="http://localhost:8080";
+export const API_URL="https://sfly.herokuapp.com/";
 
 export const ApiRequest = class ApiRequest {
 
   static async post(route, params){
-    return await Request.fetch(API_URL + '/' + route + '?email=' + params, {
+    return await Request.fetch(API_URL  + route + '?email=' + params, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
