@@ -65,6 +65,7 @@ const insertEmail = async function(email,ip) {
 };
 
 const nodeMailer = function (email) {
+  let error;
   var transporter = nodemailer.createTransport(
     "smtps://sfly.suppor%40gmail.com:sfly123741@smtp.gmail.com"
   );
@@ -80,21 +81,34 @@ const nodeMailer = function (email) {
   // send mail with defined transport object
   transporter.sendMail(mailOptions, function(error, info) {
     if (error) {
-      return console.log(error);
+      error = true
+      return console.log('Error send mail',error);
+      
     }
     //console.log("Message sent: " + info.response);
     transporter.close();
-    res.status(200).send(info.response);
+    return info.response
+
   });
+  return error;
+  
 }
 
 app.post("/send-email", function(req, res) {
   let email = req.query.email;
 
-    insertEmail(email,req.ip);//Insert Into Db
-    nodeMailer(email)// Send Email
+    /** Insert Into DB **/
+    insertEmail(email,req.ip); 
+    /**************/
 
- 
+    /** Send Email **/
+    if(!nodeMailer(email)){
+      res.status(200).send({status:200});
+    }
+    else{
+      res.status(500).send({status:500});
+    }
+    /**************/
 });
 
 app.listen(port);
