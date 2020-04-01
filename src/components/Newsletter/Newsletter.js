@@ -7,15 +7,36 @@ import { ApiRequest } from "../../controllers/ApiRequest";
 const Newsletter = () => {
   const [contactvisible, setContactvisible] = useState(false);
   const [email, setEmail] = useState("");
+  const [messageAlert, setMessageAlert] = useState("");
+  const [colorAlert, setColorAlert] = useState("");
 
   
   useEffect(() => {}, []);
 
   const handleSubmit = async event => {
     event.preventDefault();
-
+let sendEmail = await ApiRequest.post('send-email',email)
     
-    await ApiRequest.post('send-email',email);
+console.log('sendEmail',sendEmail)
+   await ApiRequest.post('send-email',email);
+    if(sendEmail.status === 200){
+      setColorAlert("success")
+      setMessageAlert(sendEmail.message)
+      setContactvisible(true)
+      setTimeout(()=>{setContactvisible(false)},2000)
+      console.log('IF',sendEmail)
+    }else if(sendEmail.status === 500){
+      setColorAlert("danger")
+      setMessageAlert(sendEmail.message)
+      setContactvisible(true)
+      setTimeout(()=>{setContactvisible(false)},2000)
+    }
+    else{
+      setColorAlert("danger")
+      setMessageAlert("Erreur !")
+      setContactvisible(true)
+      setTimeout(()=>{setContactvisible(false)},2000)
+    }
 
    
   };
@@ -44,12 +65,12 @@ const Newsletter = () => {
         <Row className="justify-content-center mt-4 pt-2">
           <Col lg={7} md={10}>
             <Alert
-              color="success"
+              color={colorAlert}
               isOpen={contactvisible}
               toggle={() => setContactvisible(!contactvisible)}
               fade={true}
             >
-              Merci !
+              {messageAlert}
             </Alert>
             <form onSubmit={eve => handleSubmit(eve)}>
               <div className="form-group">

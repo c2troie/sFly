@@ -103,10 +103,10 @@ app.post("/send-email", function(req, res) {
 
     /** Send Email **/
     if(!nodeMailer(email)){
-      res.status(200).send({status:200});
+      res.status(200).send({status:200, message:"Merci !"});
     }
     else{
-      res.status(500).send({status:500});
+      res.status(500).send({status:500,message:"Erreur, Veuillez vérifier votre connexion réseaux"});
     }
     /**************/
 });

@@ -1,7 +1,7 @@
 import {Request} from "./Request";
 
 //export const API_URL="https://sfly.herokuapp.com";
-export const API_URL="https://sfly.herokuapp.com/";
+export const API_URL="http://localhost:8080/";
 
 export const ApiRequest = class ApiRequest {
 
