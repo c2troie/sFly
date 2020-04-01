@@ -14,7 +14,7 @@ import user from "../../images/icon/user.svg";
 import marketingShape from "../../images/marketing/marketing-shape.png";
 import marketing from "../../images/marketing/marketing.png";
 import curveLight from "../../images/shapes/curve-light.png";
-import Speakers from "../Event/Speakers";
+import Speakers from "./Speakers";
 // import generic componen t
 import Faqs from "./Faqs";
 import Newsletter from "./Newsletter";

@@ -6,8 +6,6 @@ import { Route, Switch, BrowserRouter as Router, withRouter } from 'react-router
 import './Apps.scss';
 import './css/materialdesignicons.min.css';
 
-// Include Routes 
-import routes from './routes';
 
 // Root Include
 const Root = React.lazy(() => import('./pages/Marketing/index'));
