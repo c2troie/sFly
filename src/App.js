@@ -8,7 +8,7 @@ import './css/materialdesignicons.min.css';
 
 
 // Root Include
-const Root = React.lazy(() => import('./pages/Marketing/index'));
+const Root = React.lazy(() => import('./pages/index'));
 
 
 function withLayout(WrappedComponent) {
