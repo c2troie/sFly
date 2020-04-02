@@ -35,10 +35,8 @@ app.get("/ping", function(req, res) {
   return res.send("pong");
 });
 
-app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
 
+// ** UTILS **
 const insertEmail = async function(email, ip, res) {
   try {
     var geo = geoip.lookup(ip);
@@ -101,6 +99,12 @@ const isEmailExist = email =>
       .countDocuments({ email: email }, { limit: 1 });
     return await checkEmail;
   });
+
+
+// ** ROUTES **
+app.get("/", function(req, res) {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
 
 app.post("/send-email", async function(req, res) {
   let email = req.query.email;

@@ -17,15 +17,21 @@ const Newsletter = () => {
     event.preventDefault();
 let sendEmail = await ApiRequest.post('send-email',email)
     
-console.log('sendEmail',sendEmail)
-   await ApiRequest.post('send-email',email);
+//console.log('sendEmail',sendEmail)
+   //await ApiRequest.post('send-email',email);
     if(sendEmail.status === 200){
       setColorAlert("success")
       setMessageAlert(sendEmail.message)
       setContactvisible(true)
       setTimeout(()=>{setContactvisible(false)},2000)
       console.log('IF',sendEmail)
-    }else if(sendEmail.status === 500){
+    }else if(sendEmail.status === 400){
+      setColorAlert("danger")
+      setMessageAlert(sendEmail.message)
+      setContactvisible(true)
+      setTimeout(()=>{setContactvisible(false)},4000)
+    }
+    else if(sendEmail.status === 500){
       setColorAlert("danger")
       setMessageAlert(sendEmail.message)
       setContactvisible(true)
