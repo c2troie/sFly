@@ -89,6 +89,7 @@ class Topbar extends Component {
                 />
               </div>
             </div>
+          
           </div>
         </header>
       </React.Fragment>

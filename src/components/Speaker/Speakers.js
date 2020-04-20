@@ -27,16 +27,11 @@ class Speakers extends Component {
             <Row className="justify-content-center">
               <Col className="text-center">
                 <div className="section-title mb-4 pb-2">
-                  <h4 className="title mb-4">Team</h4>
+                  <h4 className="title mb-4">Qui sommes nous ?</h4>
                   <p className="text-muted para-desc mx-auto mb-0">
-                    L'équipe {" "}
-                    <span className="text-primary font-weight-bold">
-                      SFLY
-                    </span>
-                    {" "}
-                    est la pour servire,
-                    that can provide everything you need to generate fly
-                    security, serenity , simplicity.
+                   Depuis 2000, S-fly a transformer le paiement en ligne. Notre objectif : faciliter la vie des gens grace à 
+                   des applis simple comme bonjour. Notre équipe d'experts a travaillé sans relache pour élaborer notre application
+                   et donner aux utilisateurs ce qu'ils on toujours souhaité : la possibilité d'etre toujours mobiles.
                   </p>
                 </div>
               </Col>

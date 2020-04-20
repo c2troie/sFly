@@ -34,8 +34,17 @@ class Faqs extends Component {
     render() {
         return (
             <React.Fragment>
+                
                 <section className="section">
-                   
+                <div className="container">
+            <Row className="justify-content-center">
+              <Col className="text-center">
+                <div className="section-title mb-4 pb-2">
+                  <h4 className="title mb-4">FAQ</h4>
+                  </div>
+                  </Col>
+                  </Row>
+                  </div>
                     <div className="container  mt-60">
                         <Row className="align-items-center">
                             <Col lg={7} md={6}>

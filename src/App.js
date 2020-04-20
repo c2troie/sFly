@@ -9,6 +9,8 @@ import './css/materialdesignicons.min.css';
 
 // Root Include
 const Root = React.lazy(() => import('./pages/index'));
+const Home = React.lazy(() => import('./pages/Home/index'));
+const Luana = React.lazy(() => import('./pages/Luana/index'));
 
 
 function withLayout(WrappedComponent) {
@@ -31,7 +33,10 @@ class App extends Component {
       <Router>
           <React.Suspense fallback={<div></div>}>
             <Switch> 
-            <Route path={"/"} component={withLayout(Root)}  />
+            <Route path={"/Khalid"} component={withLayout(Root)}  />
+            <Route path={"/Luana"} component={withLayout(Luana)}  />
+            <Route path={"/"} component={withLayout(Home)}  />
+            
             </Switch>
           </React.Suspense>
         </Router>
